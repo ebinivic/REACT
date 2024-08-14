@@ -1,8 +1,10 @@
-
-function Hello() {
-    return (
+function Hello(props) {
+console.log(props);
+return (
 <div>
-    <h1>Hello Victor</h1>
+    <h1>
+         {props.message} {props.name}
+        </h1>
     </div>
     )
 };
