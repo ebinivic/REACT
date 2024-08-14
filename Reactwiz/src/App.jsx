@@ -1,10 +1,15 @@
 import Hello from './components/Hello';
 function App() {
+const person = {
+name:'Adetola',
+message:'Hi there',
+emoji:'',
+seatNumbers: [1, 4, 6]
 
+}
   return (
 <div className="App">
-      <Hello name='Ebini' message='Hi There !'/> 
-      <Hello name='Adetola' message='I love'/>
+      <Hello person={person} />
     </div>
   )
    
